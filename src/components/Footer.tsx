@@ -34,12 +34,12 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/LovishThukral/">
+            <a target="_blank" href="https://github.com/Lovish-Thukral">
               Github
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://x.com/LovishThukral">
+            <a target="_blank" href="https://x.com/TheUndevloper">
               X
             </a>
           </li>

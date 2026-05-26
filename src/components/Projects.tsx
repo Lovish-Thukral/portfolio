@@ -39,7 +39,7 @@ function Projects() {
   ];
 
   return (
-    <div className="w-full flex flex-col p-[10%] justify-center items-center gap-5">
+    <div className="w-full flex flex-col p-[10%] justify-center items-center gap-5" id="work">
       <motion.h2
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -7,3 +7,9 @@
   --color-darkHover: #2a004a;
   --color-darkTheme: #11001F;
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
