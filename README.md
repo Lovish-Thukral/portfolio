@@ -1,73 +1,134 @@
-# React + TypeScript + Vite
+# Lovish Thukral - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal developer portfolio showcasing projects, technical skills, and experience in Software Engineering, AI Systems, React Native, and Native Application Development.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm a Computer Science Engineering student passionate about building software that combines modern application development with low-level systems engineering.
 
-## React Compiler
+My primary interests include:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Software Development Engineering (SDE)
+- AI Systems & Local LLMs
+- React Native Development
+- Android NDK & JNI
+- Backend Engineering
+- System Design
 
-## Expanding the ESLint configuration
+## Featured Projects
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Sabrina AI
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A fully offline voice assistant designed to run entirely on-device without cloud APIs or internet dependency.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+#### Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Local speech-to-text using faster-whisper
+- Local LLM inference using llama.cpp
+- Adaptive model selection based on device resources
+- Privacy-focused architecture
+- Real-time conversational experience
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+#### Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Python
+- ONNX Runtime
+- faster-whisper
+- llama.cpp
+- NeuTTS
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### Vexa
+
+A native vector file previewer capable of processing proprietary design formats directly on Android devices.
+
+#### Features
+
+- Preview support for CDR, AI, and PSD files
+- Native C++ parsing pipeline
+- React Native TurboModule integration
+- SQLite-backed thumbnail caching
+- Android NDK & JNI implementation
+
+#### Tech Stack
+
+- React Native
+- C++
+- Android NDK
+- JNI
+- SQLite
+- libcdr
+
+---
+
+### Nextep AI
+
+An AI-powered career mentorship and roadmap generation platform.
+
+#### Features
+
+- Personalized career guidance
+- Dynamic roadmap generation
+- AI-powered mentorship system
+- Context-aware interactions
+- Full-stack architecture
+
+#### Tech Stack
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Groq API
+
+## Tech Stack
+
+### Languages
+
+- JavaScript
+- TypeScript
+- Python
+- C++
+
+### Frontend
+
+- React
+- React Native
+- Next.js
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- SQLite
+- Redis
+
+### AI Systems
+
+- LLM Integration
+- ONNX Runtime
+- Quantization
+- Local Inference
+- Prompt Orchestration
+
+### Tools & Platforms
+
+- Git
+- GitHub
+- Linux
+- Docker
+- AWS
+
+## Contact
+
+- Portfolio: https://your-portfolio-url.vercel.app
+- LinkedIn: https://linkedin.com/in/lavi-khatri
+- GitHub: https://github.com/Lovish-Thukral
+- Email: lavi.khatri114@gmail.com
+
+## License
+
+This project is open for learning and inspiration. Please do not directly copy the content or branding without permission.
