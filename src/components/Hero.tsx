@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 
 function Hero() {
   return (
-    <div className='w-11/12 max-w-4xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-3' id='home'>
+    <div className='w-11/12 max-w-4xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-3 pt-20' id='home'>
 
       {/* Profile Image */}
       <motion.div

@@ -81,7 +81,7 @@ function AboutMe() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="text-lg mb-10 not-sm:max-w-4/6 font-serif text-justify leading-relaxed">
+          <p className="text-lg mb-10 w-full font-serif text-justify leading-relaxed">
             I’m a <strong>Computer Science student</strong> focused on
             <strong> AI Engineering and Distributed Systems</strong>. I build
             scalable infrastructure and high-performance systems designed to
